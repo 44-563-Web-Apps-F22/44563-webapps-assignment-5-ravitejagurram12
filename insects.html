@@ -14,6 +14,24 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
   <h1>Insects By Raviteja Gurram</h1>
   <div class="container">
     <div class="row">
@@ -52,8 +70,134 @@
 
   </div>
 
+  <table class="table table-striped table-bordered table-hover table-sm">
+    <caption>Insect Table</caption>
+      <thead class="table-secondary">
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Insect</th>
+          <th scope="col">City</th>
+          <th scope="col">River</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-danger">
+          <th scope="row">G</th>
+          <td>Grillo</td>
+          <td>Glendale</td>
+          <td>Amu Darya</td>
+        </tr>
+        <tr class = "table-info">
+          <th scope="row">U</th>
+          <td>underwing</td>
+          <td>Ukiah</td>
+          <td>Unadilla River</td>
+        </tr>
+        <tr class="bg-info">
+          <th scope="row">R</th>
+          <td>Roach</td>
+          <td>Richmond</td>
+          <td>Raft River</td>
+        </tr>
+        <tr class="table-light">
+          <th scope="row" >A</th>
+          <td>Ant</td>
+          <td>Arlington</td>
+          <td>Amargosa River</td>
+        </tr>
+        <tr class="table-dark">
+          <th scope="row">M</th>
+          <td>Midges</td>
+          <td>Miami</td>
+          <td>Machias River</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">V</th>
+          <td>Viceroy</td>
+          <td>Victorville</td>
+          <td>Vedder River</td>
+        </tr>
+      </tbody>
+  </table>
+  <br>
+    <label> Buttons</label>
+    <br>
+    <button class="btn">G</button>
+    <button class="btn">U</button>
+    <button class="btn">R</button>
+    <button class="btn">A</button>
+    <button class="btn">M</button>
+    <button class="btn">V</button>
+    <br>
+    <label>Grouping the buttons </label>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="first group">
+        <button type="button" class="btn btn-success">G</button>
+        <button type="button" class="btn btn-success">U</button>
+        <button type="button" class="btn btn-success">R</button>
+      </div>
 
+      <div class="btn-group" role="group" aria-lable="second group">
+       <button type="button" class="btn btn-warning">A</button>
+       <button type="button" class="btn btn-warning">M</button>
+      </div> 
+      <div class="btn-group" role="group" aria-lable="third group">
+        <button type="button" class="btn btn-danger">V</button>
+     </div> 
+   </div>
+   <br>
+   <div class="dropdown">
+    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+       <a class="dropdown-item" href="basic.html">Basic Page</a>
+       <a class="dropdown-item" href="advanced.html">Advanced Page</a>
  
+     </div>
+   </div>
+   <br>
+   <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-group">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="form-group">Insect</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your insect">
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <br>
+    <div class="card-group">
+      <div class="card" style="width: 18rem;">
+        <img src="grillo.jpg" class="card-img-top" alt="Grillo">
+        <div class="card-body">
+          <h5 class="card-title">Grillo</h5>
+          <p class="card-text">The grilids are a family of orthopteran insects of the superfamily Grylloidea, within the suborder Ensifera. To this family belong insects commonly known as crickets. They are usually brown to black insects with nocturnal habits. Some species are found in houses, domestic crickets, for example Acheta domesticus and Gryllus bimaculatus in temperate zones and Gryllodes supplicans or Gryllodes sigillatus in tropical areas.</p>
+          <a href="https://educalingo.com/en/dic-es/grillo" class="btn btn-primary">Grillo Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Midges.jpg" class="card-img-top" alt="Midges">
+        <div class="card-body">
+          <h5 class="card-title">Midges</h5>
+          <p class="card-text">Midge, (family Chironomidae), also called chironomid, nonbiting midge, or gnat, any of a group of tiny two-winged flies (order Diptera) that superficially resemble mosquitoesA midge is any small fly, including species in several families of non-mosquito Nematoceran Diptera. Midges are found (seasonally or otherwise) on practically every land area outside permanently arid deserts and the frigid zones..</p>
+          <a href="https://en.wikipedia.org/wiki/Midge" class="btn btn-primary">Midges Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="viceroy.jpg" class="card-img-top" alt="viceroy">
+        <div class="card-body">
+          <h5 class="card-title">viceroy</h5>
+          <p class="card-text">The viceroy (Limenitis archippus) is a North American butterfly. It was long thought to be a Batesian mimic of the monarch butterfly, but since the viceroy is also distasteful to predators, it is now considered a Müllerian mimic instead.</p>
+          <a href="https://en.wikipedia.org/wiki/Viceroy_(butterfly)" class="btn btn-primary">viceroy Page</a>
+        </div>
+      </div>
+    </div>
 
 
 
